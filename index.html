@@ -1,20 +1,46 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 
 <head>
+    <title>W3.CSS Template</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>hejsan</title>
-    <link rel="stylesheet" href="W3.css">
-    <link rel="stylesheet" href="master.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>html,body,h1,h2,h3,h4,h5,h6 {
+            font-family: "Roboto", sans-serif;
+        }
+
+        .w3-sidebar {
+            z-index: 3;
+            width: 250px;
+            top: 43px;
+            bottom: 0;
+            height: inherit;
+        }
+    </style>
 </head>
 
 <body>
-    <header class="w3-container w3-green w3-center" style="padding:16px 16px">
-        <h1 class="w3-margin w3-jumbo">START PAGE</h1>
-        <p class="w3-xlarge">Template by w3.css</p>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1"
+                href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-green w3-center" style="padding:32px 16px">
+        <h1 class="w3-margin w3-jumbo">Hållbar Utveckling</h1>
+        <p class="w3-xlarge">Yttersjö kommun</p>
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
     </header>
+
     <!-- Sidebar -->
     <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
         <a href="javascript:void(0)" onclick="w3_close()"
@@ -132,8 +158,6 @@
             overlayBg.style.display = "none";
         }
     </script>
-
-    <script type="text/javascript" src="code.js"></script>
 
 </body>
 
