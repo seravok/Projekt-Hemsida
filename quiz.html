@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <h2>Energi i hemmet</h2>
+    <h3>1. Hur många procent står bostäder av den totala elanvändning i Sverige?</h3>
+    <input type="radio" id="a1" name="answer1" value="a1">
+    <label for="a">39%</label> <br>
+    <input type="radio" id="b1" name="answer1" value="b1">
+    <label for="a">36%</label> <br>
+    <input type="radio" id="c1" name="answer1" value="c1">
+    <label for="a">25%</label> <br>
+
+    <h3>2. Är stand by läget ett bra alternativ att spara el?</h3>
+    <input type="radio" id="a2" name="answer2" value="a2">
+    <label for="a">Ja</label> <br>
+    <input type="radio" id="b2" name="answer2" value="b2">
+    <label for="a">Nej</label> <br>
+    <input type="radio" id="c2" name="answer2" value="c2">
+    <label for="a">Det gör inget</label> <br>
+
+
+    <br><br>
+    <input type="submit" value="Rätta" onclick="checkAnswer()">
+    <h3 id="point"></h3>
+</body>
+</html>
