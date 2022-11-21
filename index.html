@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
     <title>W3.CSS Template</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="W3.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>html,body,h1,h2,h3,h4,h5,h6 {
@@ -15,7 +15,7 @@
 
         .w3-sidebar {
             z-index: 3;
-            width: 250px;
+            width: 190px;
             top: 43px;
             bottom: 0;
             height: inherit;
@@ -31,15 +31,16 @@
             <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1"
                 href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
                 
-            <a href="#" class="w3-bar-item w3-button w3-theme-l1">
+            <a href="#" class=" w3-theme-l1 ">
             <img src="logo.png" width="190" height="44" alt="logo"usemap="#logo">
             </a>
         </div>
     </div>
 
     <!-- Header -->
+    
     <header class="w3-container w3-green w3-center" style="padding:32px 16px">
-        <h1 class="w3-margin w3-jumbo">Hållbar Utveckling</h1>
+        <h1 id="top" class="w3-margin w3-jumbo">Hållbar Utveckling</h1>
         <p class="w3-xlarge">Yttersjö kommun</p>
         <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
     </header>
@@ -51,10 +52,11 @@
             <i class="fa fa-remove"></i>
         </a>
         <h4 class="w3-bar-item"><b>Menu</b></h4>
-        <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-        <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-        <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
-        <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+        <a class="w3-bar-item w3-button w3-hover-black" href="#summary">Sammanfattning</a>
+        <a class="w3-bar-item w3-button w3-hover-black" href="#thai">Thai</a>
+        <a class="w3-bar-item w3-button w3-hover-black" href="#borhan">Borhan</a>
+        <a class="w3-bar-item w3-button w3-hover-black" href="#albin">Albin</a>
+        <a class="w3-bar-item w3-button w3-hover-black" href="#joachim">Joachim</a>
     </nav>
 
     <!-- Overlay effect when opening sidebar on small screens -->
@@ -66,7 +68,7 @@
 
         <div class="w3-row w3-padding-64">
             <div class="w3-twothird w3-container">
-                <h1 class="w3-text-teal">Heading</h1>
+                <h1 id="summary" class="w3-text-teal">Sammanfattning Borhan</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Lorem ipsum
@@ -82,7 +84,7 @@
 
         <div class="w3-row">
             <div class="w3-twothird w3-container">
-                <h1 class="w3-text-teal">Heading</h1>
+                <h1 id="thai" class="w3-text-teal">Thai</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Lorem ipsum
@@ -98,7 +100,39 @@
 
         <div class="w3-row w3-padding-64">
             <div class="w3-twothird w3-container">
-                <h1 class="w3-text-teal">Heading</h1>
+                <h1 id="borhan" class="w3-text-teal">Borhan</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <div class="w3-third w3-container">
+                <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-64">
+            <div class="w3-twothird w3-container">
+                <h1 id="albin" class="w3-text-teal">Albin</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+            </div>
+            <div class="w3-third w3-container">
+                <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+                <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+            </div>
+        </div>
+
+        <div class="w3-row w3-padding-64">
+            <div class="w3-twothird w3-container">
+                <h1 id="joachim" class="w3-text-teal">Joachim</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Lorem ipsum
@@ -115,18 +149,18 @@
         <!-- Pagination -->
         <div class="w3-center w3-padding-32">
             <div class="w3-bar">
-                <a class="w3-button w3-black" href="#">1</a>
-                <a class="w3-button w3-hover-black" href="#">2</a>
-                <a class="w3-button w3-hover-black" href="#">3</a>
-                <a class="w3-button w3-hover-black" href="#">4</a>
-                <a class="w3-button w3-hover-black" href="#">5</a>
-                <a class="w3-button w3-hover-black" href="#">»</a>
+
+                <a class="w3-button w3-hover-black" href="quiz.html">Ta mig till quiz</a>
+
             </div>
         </div>
 
         <footer id="myFooter">
             <div class="w3-container w3-theme-l2 w3-padding-32">
                 <h4>Footer</h4>
+                <a class="w3-button w3-hover-black" href="sources.html">Källor</a>
+                <a class="w3-button" href="#top">Top</a>
+            
             </div>
 
             <div class="w3-container w3-theme-l1">
