@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +10,64 @@
     <link rel="stylesheet" href="W3.css">
     <link rel="stylesheet" href="master.css">
     <script src="code.js" defer></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>html,body,h1,h2,h3,h4,h5,h6 {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Quiz</h1>
-    <h2>Energi i hemmet</h2>
-    <h3>1. Hur många procent står bostäder av den totala elanvändning i Sverige?</h3>
-    <input type="radio" id="a1" name="answer1" value="a1">
-    <label for="a">39%</label> <br>
-    <input type="radio" id="b1" name="answer1" value="b1">
-    <label for="a">36%</label> <br>
-    <input type="radio" id="c1" name="answer1" value="c1">
-    <label for="a">25%</label> <br>
 
-    <h3>2. Är stand by läget ett bra alternativ att spara el?</h3>
-    <input type="radio" id="a2" name="answer2" value="a2">
-    <label for="a">Ja</label> <br>
-    <input type="radio" id="b2" name="answer2" value="b2">
-    <label for="a">Nej</label> <br>
-    <input type="radio" id="c2" name="answer2" value="c2">
-    <label for="a">Det gör inget</label> <br>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1"
+                  href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+                    
+            <a href="index.html" class=" w3-theme-l1 ">
+            <img src="logo.png" width="190" height="44" alt="logo"usemap="#logo">
+            </a>
+        </div>
+    </div>
 
+    <!-- Header -->
+    
+    <header class="w3-container w3-green w3-center" style="padding:32px 16px">
+        <h1 id="top" class="w3-margin w3-jumbo">Hållbar Utveckling</h1>
+        <p class="w3-xlarge">Yttersjö kommun</p>
+    </header>
 
-    <br><br>
-    <input type="submit" value="Rätta" onclick="checkAnswer()">
-    <h3 id="point"></h3>
+    <!-- Quiz Content-->
+    <div class="w3-main">
+        <div class="w3-row ">
+            <div class="w3-twothird w3-container">
+                <h1 class="w3-text">Quiz</h1>
+                <h2 class="w3-text-teal">Energi i hemmet</h2>
+                <h3>1. Hur många procent står bostäder av den totala elanvändning i Sverige?</h3>
+                <input type="radio" id="a1" name="answer1" value="a1">
+                <label for="a">39%</label> <br>
+                <input type="radio" id="b1" name="answer1" value="b1">
+                <label for="a">36%</label> <br>
+                <input type="radio" id="c1" name="answer1" value="c1">
+                <label for="a">25%</label> <br>
+
+                <h3>2. Är stand by läget ett bra alternativ att spara el?</h3>
+                <input type="radio" id="a2" name="answer2" value="a2">
+                <label for="a">Ja</label> <br>
+                <input type="radio" id="b2" name="answer2" value="b2">
+                <label for="a">Nej</label> <br>
+                <input type="radio" id="c2" name="answer2" value="c2">
+                <label for="a">Det gör inget</label> <br>
+
+            <br><br>
+            <input type="submit" value="Rätta" onclick="checkAnswer()">
+            <h3 id="point"></h3>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
