@@ -14,8 +14,14 @@ function checkAnswer(){
 if(document.getElementById("b4").checked){
    nbr++;
 }
+if(document.getElementById("a5").checked){
+   nbr++;
+}
+if(document.getElementById("b6").checked){
+   nbr++;
+}
 
  console.log(nbr);
- document.getElementById("point").innerHTML = "Du fick " + nbr + "/4";
+ document.getElementById("point").innerHTML = "Du fick " + nbr + "/6";
  document.getElementById("point").style.color = "red";
 }
