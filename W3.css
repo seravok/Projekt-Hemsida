@@ -374,7 +374,8 @@ a {
 .w3-bottom {
     bottom: 0
 }
-
+/*-----------------------------------------------------------------------------------*/
+/* beskriver overlayen */
 .w3-overlay {
     position: fixed;
     display: none;
@@ -422,6 +423,7 @@ a {
     padding: .01em 16px
 }
 
+/*beskriver rotationen*/
 @keyframes w3-spin {
     0% {
         transform: rotate(0)
@@ -432,6 +434,7 @@ a {
     }
 }
 
+/*beskriver fading*/
 @keyframes fading {
     0% {
         opacity: 0
@@ -445,7 +448,7 @@ a {
         opacity: 0
     }
 }
-
+/*beskriver om sidebaren antingen vissas eller ej*/
 @keyframes opac {
     from {
         opacity: 0
@@ -460,7 +463,7 @@ a {
     position: relative;
     animation: animateleft .4s
 }
-
+/*beskriver sidbaren stängning*/
 @keyframes animateleft {
     from {
         left: -300px;
@@ -472,7 +475,7 @@ a {
         opacity: 1
     }
 }
-
+/*--------------------------------------------------------------------------------------------*/
 
 /* Text and font settings */
 .w3-small {
