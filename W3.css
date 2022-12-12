@@ -1,22 +1,25 @@
+/* W3.css framework is used as a base*/
+/*  sets padding and border to the same width and height for the entire document*/
 html {
     box-sizing: border-box
 }
 
+/* all elements set to inherit box size from from pseudo-elements */
 *,
 :after,
 :before {
     box-sizing: inherit
 }
-
+/* adjusts text for mobile browsers */
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
-
+/* everything in body gets a 0 margin */
 body {
     margin: 0
 }
-
+/* elements take up the full available width */
 footer,
 header,
 main,
@@ -24,36 +27,43 @@ menu,
 nav {
     display: block
 }
-
+/* generates a list-item inline box */
 summary {
     display: list-item
 }
-
+/* hidden items does not get displayed */
 [hidden] {
     display: none
 }
 
+/* sets background color to transparent for hyperlinks */
 a {
     background-color: transparent
 }
 
+/* hyperlinks get outline width set to 0 in active and hover mode*/
 a:active,
 a:hover {
     outline-width: 0
 }
 
+/* sets bold tag to "bolder" as standard*/
 b {
     font-weight: bolder
 }
-
+/* small text set to slightly smaller size */
 small {
     font-size: 80%
 }
-
+/* removes border style for images */
 img {
     border-style: none
 }
 
+/* button style */
+/* changes aperance of button in many specified cases */
+/* based on W3.css */
+/* -------------------------------------------------- */
 button {
     font: inherit;
     margin: 0
@@ -113,6 +123,11 @@ button:-moz-focusring {
     font: inherit
 }
 
+/* -------------------------------------------------- */
+
+
+/* specifies font related styling for for body, html and h# tags */
+/* ------------------------------------------------------------- */
 body,
 html {
     font-family: Verdana, sans-serif;
@@ -167,7 +182,7 @@ h6 {
     font-weight: 400;
     margin: 10px 0
 }
-
+/* ------------------------------------------------------------- */
 img {
     vertical-align: middle
 }
