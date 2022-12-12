@@ -16,6 +16,6 @@ function checkAnswer(){
    }
 
 console.log(nbr);
-document.getElementById("point").innerHTML = "Du fick " + nbr + "/4";
+document.getElementById("point").innerHTML = "Du fick " + nbr + "/" + right_answer.length;
 document.getElementById("point").style.color = "red";
 }
