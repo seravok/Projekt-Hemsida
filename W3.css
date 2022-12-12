@@ -182,7 +182,7 @@ h6 {
     font-weight: 400;
     margin: 10px 0
 }
-/* ------------------------------------------------------------- */
+/* Image */
 img {
     vertical-align: middle
 }
@@ -190,7 +190,7 @@ img {
 a {
     color: inherit
 }
-
+/* Button */
 .w3-button {
     border: none;
     display: inline-block;
@@ -227,6 +227,7 @@ a {
     position: relative
 }
 
+/*sides*/
 .w3-sidebar {
     height: 100%;
     width: 200px;
