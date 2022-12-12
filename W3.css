@@ -59,7 +59,11 @@ small {
 img {
     border-style: none
 }
-/* buttons get 0 margin and inherits font */
+
+/* button style */
+/* changes aperance of button in many specified cases */
+/* based on W3.css */
+/* -------------------------------------------------- */
 button {
     font: inherit;
     margin: 0
@@ -119,6 +123,11 @@ button:-moz-focusring {
     font: inherit
 }
 
+/* -------------------------------------------------- */
+
+
+/* specifies font related styling for for body, html and h# tags */
+/* ------------------------------------------------------------- */
 body,
 html {
     font-family: Verdana, sans-serif;
@@ -172,7 +181,7 @@ h6 {
     font-weight: 400;
     margin: 10px 0
 }
-
+/* ------------------------------------------------------------- */
 img {
     vertical-align: middle
 }
